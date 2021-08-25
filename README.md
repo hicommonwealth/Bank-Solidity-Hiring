@@ -2,7 +2,7 @@
 
 Hello! If you're reading this, you applied to a Solidity Engineering role at Commonwealth. This is Commonwealth's hiring test for Solidity engineers.
 
-When you fork this repository, you should make your fork **private** and share it with [wpapper](https://github.com/wpapper) on Github with an admin role. By forking this repository, you agree to keep the MIT License intact and assign the MIT License to your fork as well.
+When you fork this repository, you should make your fork **private** and share it with [zakhap](https://github.com/zakhap) on Github with an admin role. By forking this repository, you agree to keep the MIT License intact and assign the MIT License to your fork as well.
 
 In this repository, we have a very insecure bank located at Bank.sol. It can keep track of balances, handle deposits, and handle withdrawals for **a single user**. It essentially acts as a bank account for a single person and does not support multiple users at the moment. The bank receives a fee from that user for every withdrawal. As you work on Bank.sol, think about:
 
