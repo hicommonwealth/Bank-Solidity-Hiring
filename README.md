@@ -1,6 +1,6 @@
 # Bank-Solidity-Hiring
 
-Hello! If you're reading this, you applied to a Solidity Engineering role at Syndicate. This is Syndicate's hiring test for Solidity engineers. (Note: If you have not applied but stumbled across this repository somehow, you are welcome to check out our [job postings](https://www.notion.so/Syndicate-Protocol-Job-Postings-ad09c123121445339d6dfe0da4e3495e).)
+Hello! If you're reading this, you applied to a Solidity Engineering role at Commonwealth. This is Commonwealth's hiring test for Solidity engineers.
 
 When you fork this repository, you should make your fork **private** and share it with [wpapper](https://github.com/wpapper) on Github with an admin role. By forking this repository, you agree to keep the MIT License intact and assign the MIT License to your fork as well.
 
@@ -30,8 +30,6 @@ This project is well compensated to give you the time you need to properly secur
 3. Run `npm start` in one terminal window to start the Ganache server
 4. Run `npm test` in another terminal window to run the Truffle tests
 5. The initial tests should pass for `depositToBank` and `withdrawFromBank` and fail for `calculateBankFee`.
-
-If the tests are failing with the error `Error: Returned error: VM Exception while processing transaction: revert Dai/insufficient-balance -- Reason given: Dai/insufficient-balance.`, the daiWhale address does not have enough Dai. (These are real addresses, so funds sometimes move around.) You can go to the list of [top Dai holders on Etherscan](https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f#balances) and find an address with significant Dai holdings that is not a contract. (Contracts can sometimes fail to transfer the Dai when you unlock them, so look for addresses without an icon next to the name.) Make sure to replace the daiWhale address in **both** Bank.js and package.json in the same way as [this commit](https://github.com/SyndicateProtocol/Bank-Solidity-Hiring/commit/9915ccc52b8163d7f4ab2e5561cbe79f6a381e99).
 
 ### Common Issues
 
